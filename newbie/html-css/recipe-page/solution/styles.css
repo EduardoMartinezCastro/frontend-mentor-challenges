@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Outfit";
-  src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+  src: url("assets/fonts/outfit/static/Outfit-Regular.ttf");
 }
 
 * {
@@ -135,12 +135,31 @@ li:last-child {
 }
 
 /* NUTRITION   */
-tr {
-  border-bottom: lightgray solid 1px;
-  margin-bottom: 10px;
-}
+
 .nutrition-table {
   width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 20px;
+  margin-bottom: 20px;
+}
+
+.nutrition-table tr td:last-child {
+  font-size: 22px;
+}
+
+.nutrition-table td {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.nutrition-table tr td {
+  width: 50%;
+  padding-left: 35px;
+}
+
+.nutrition-table tr:last-child td {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .nutrition-title {
