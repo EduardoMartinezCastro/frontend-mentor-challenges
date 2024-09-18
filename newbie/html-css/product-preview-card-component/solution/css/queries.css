@@ -1,11 +1,32 @@
 /*1344px*/
 @media (max-width: 84em) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    gap: 3.2rem;
+  }
 }
 
 /*1200px*/
-
+@media (max-width: 75em) {
+  html {
+    font-size: 40%;
+  }
+}
 /*944px*/
-
+@media (max-width: 59em) {
+  html {
+    font-size: 30%;
+  }
+}
 /*704px*/
+@media (max-width: 44em) {
+  .card {
+    flex-direction: column;
+    max-width: 120rem;
+  }
+}
 
 /*544px*/
