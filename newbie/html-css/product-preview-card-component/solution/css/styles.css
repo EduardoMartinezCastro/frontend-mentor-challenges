@@ -14,6 +14,7 @@ html {
 
 body {
   font-family: "Montserrat";
+  background-color: #f2ebe3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,8 +22,10 @@ body {
 }
 
 .card {
+  background-color: #fff;
   max-width: 80rem;
   display: flex;
+  border-radius: 1rem;
 }
 
 /************************/
@@ -36,6 +39,8 @@ body {
 .product-img {
   width: 100%;
   height: 100%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 /************************/
@@ -49,9 +54,12 @@ body {
   flex-direction: column;
 }
 
-/* .container {
-  margin: 4.4rem;
-} */
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
 
 .product-title {
   font-family: "Fraunces";
@@ -69,4 +77,46 @@ body {
 .product-description {
   font-size: 2rem;
   color: #6c7289;
+  line-height: 1.5;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.final-price {
+  font-family: "Fraunces";
+  color: #3c8067;
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 1.8rem;
+  text-decoration: line-through;
+  color: #6c7289;
+  font-weight: 500;
+}
+
+.btn {
+  font-family: "Montserrat";
+  font-size: 1.8rem;
+  color: white;
+  background-color: #3c8067;
+  width: 100%;
+  border: 0;
+  padding: 1.8rem 3.6rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.btn:hover {
+  background-color: #2a5a48;
+  cursor: pointer;
 }
