@@ -240,21 +240,19 @@ h2 {
   grid-row: 3 / 5;
   grid-column: 5 / 7;
   background-color: #ffcb6b;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
+
   overflow: hidden;
 }
 
 .schedule--container {
   margin: 2.4rem auto;
-  width: 75%;
+  width: 80%;
 }
 
 .schedule--title {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   line-height: 1;
-  margin-bottom: 3.2rem;
+  margin-bottom: 3rem;
 }
 
 /*********************/
