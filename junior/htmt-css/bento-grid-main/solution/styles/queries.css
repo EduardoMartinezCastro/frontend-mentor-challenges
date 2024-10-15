@@ -1,0 +1,44 @@
+/*1400px*/
+@media (max-width: 84em) {
+}
+
+/*1200px*/
+@media (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/*992px*/
+@media (max-width: 62em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/*768px*/
+@media (max-width: 48em) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .reviews--section {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .accounts--section {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .schedule--section {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .btp--section {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+}

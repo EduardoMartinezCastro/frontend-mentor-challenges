@@ -38,6 +38,9 @@ h2 {
   height: auto;
 }
 
+.rounded {
+  border-radius: 1rem;
+}
 /********************/
 /** LANDING STYLES **/
 /********************/
@@ -105,7 +108,7 @@ h2 {
 }
 
 .content--section-container {
-  width: 75%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   gap: 4.8rem;
@@ -246,13 +249,13 @@ h2 {
 
 .schedule--container {
   margin: 2.4rem auto;
-  width: 80%;
+  width: 82%;
 }
 
 .schedule--title {
   font-size: 2.6rem;
   line-height: 1;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 /*********************/
@@ -263,6 +266,27 @@ h2 {
   grid-row: 5 / 7;
   grid-column: 5 / 9;
   background-color: #7650dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.followers--title {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.followers--container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  gap: 0.8rem;
+}
+
+.followers--img {
+  width: 130%;
 }
 
 /*********************/
@@ -273,4 +297,30 @@ h2 {
   grid-row: 1 / 5;
   grid-column: 7 / 9;
   background-color: #dacffc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.btp--title {
+  font-size: 2.4rem;
+  line-height: 0.9;
+}
+
+.btp--container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.btp--img {
+  width: 182%;
+}
+
+.btp--description {
+  font-size: 1.6rem;
+  margin: 0;
+  line-height: 1;
 }
