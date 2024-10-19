@@ -38,7 +38,7 @@
   /********************/
 
   .reviews--section-container {
-    width: 75%;
+    width: 77%;
     margin: 6.4rem auto;
   }
   .reviews--section {
@@ -107,7 +107,7 @@
   }
 
   .btp--title {
-    font-size: 5.2rem;
+    font-size: 6.2rem;
     text-align: center;
     margin-bottom: 2.4rem;
   }
@@ -238,6 +238,6 @@
 /*320px*/
 @media (max-width: 20em) {
   html {
-    font-size: 20%;
+    font-size: 15%;
   }
 }
