@@ -5,40 +5,239 @@
 /*1200px*/
 @media (max-width: 75em) {
   html {
-    font-size: 50%;
+    font-size: 55%;
+  }
+  .reviews--title {
+    font-size: 4.4rem;
   }
 }
 
 /*992px*/
 @media (max-width: 62em) {
-  html {
-    font-size: 45%;
+  body {
+    height: auto;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    margin: 4.8rem auto;
+    gap: 4.8rem;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .landing {
+    max-width: 75rem;
+  }
+
+  /********************/
+  /** REVIEWS STYLES **/
+  /********************/
+
+  .reviews--section-container {
+    width: 75%;
+    margin: 6.4rem auto;
+  }
+  .reviews--section {
+    order: -8;
+    display: block;
+  }
+
+  .reviews--img {
+    width: 70%;
+  }
+
+  .reviews--title {
+    font-size: 9.4rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .total--reviews {
+    font-size: 3.6rem;
+  }
+
+  /*********************/
+  /** ACCOUNTS STYLES **/
+  /*********************/
+  .accounts--section {
+    order: -7;
+    display: block;
+  }
+
+  .accounts--section-container {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  .accounts--title {
+    font-size: 4.4rem;
+  }
+  /*********************/
+  /** Schedule STYLES **/
+  /*********************/
+  .schedule--section {
+    order: -6;
+    max-height: 48rem;
+  }
+
+  .schedule--title {
+    font-size: 5.2rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .schedule--img {
+    width: 70%;
+    flex-shrink: 0;
+  }
+
+  .schedule--container {
+    width: 90%;
+    margin: 3.2rem 3.2rem 0 3.2rem;
+  }
+
+  /*********************/
+  /*** BTP STYLES ******/
+  /*********************/
+  .btp--section {
+    order: -5;
+    display: block;
+  }
+
+  .btp--title {
+    font-size: 5.2rem;
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+
+  .btp--container {
+    width: 90%;
+    margin: 4.8rem auto;
+  }
+
+  .btp--description {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+
+  .btp--img {
+    margin-bottom: 2.4rem;
+  }
+
+  /***************************/
+  /*** Followers STYLES ******/
+  /***************************/
+  .followers--section {
+    order: -4;
+    display: block;
+  }
+
+  .followers--img {
+    width: 100%;
+    margin-bottom: 4.8rem;
+  }
+
+  .followers--title {
+    font-size: 6.4rem;
+    text-align: center;
+  }
+
+  .followers--container {
+    margin: 3.2rem auto;
+    display: block;
+    width: 60%;
+  }
+
+  /***************************/
+  /*** Audience STYLES ******/
+  /***************************/
+  .audience--section {
+    order: -3;
+    display: block;
+  }
+
+  .audience--section-container {
+    margin: 3.2rem auto;
+    width: 90%;
+  }
+
+  .audience--description {
+    font-size: 3.6rem;
+  }
+  .audience--title {
+    font-size: 8.6rem;
+  }
+
+  .audience--img {
+    width: 60%;
+  }
+
+  /***************************/
+  /*** CTA STYLES ******/
+  /***************************/
+
+  .cta--section {
+    order: -2;
+  }
+
+  .create--post-img {
+    width: 60%;
+  }
+
+  .cta--section-container {
+    width: 86%;
+    display: block;
+  }
+
+  .cta--title {
+    font-size: 6.4rem;
+    margin-bottom: 4.8rem;
+  }
+
+  /***************************/
+  /*** CONTENT STYLES ******/
+  /***************************/
+
+  .content--section {
+    order: -1;
+    display: block;
+  }
+
+  .content--section-container {
+    display: block;
+    margin: 3.2rem auto;
+    width: 87%;
+  }
+
+  .ai-content--img {
+    width: 70%;
+  }
+
+  .content--title {
+    font-size: 6.4rem;
+    margin-bottom: 3.2rem;
   }
 }
 
 /*768px*/
 @media (max-width: 48em) {
-  .grid {
-    display: flex;
-    flex-direction: column;
+  html {
+    font-size: 35%;
   }
-  .reviews--section {
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
+}
 
-  .accounts--section {
-    grid-column: 1/2;
-    grid-row: 2/3;
+/*480px*/
+@media (max-width: 30em) {
+  html {
+    font-size: 25%;
   }
+}
 
-  .schedule--section {
-    grid-column: 1/2;
-    grid-row: 3/4;
-  }
-
-  .btp--section {
-    grid-column: 1/2;
-    grid-row: 5/6;
+/*320px*/
+@media (max-width: 20em) {
+  html {
+    font-size: 20%;
   }
 }
