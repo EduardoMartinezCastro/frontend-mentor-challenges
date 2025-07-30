@@ -1,0 +1,18 @@
+/********************/
+/** GENERAL STYLES **/
+/********************/
+
+@font-face {
+  font-family: "WorkSans";
+  src: url(../assets/fonts/work_sans.ttf);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
