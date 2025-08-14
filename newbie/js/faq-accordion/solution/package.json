@@ -1,0 +1,29 @@
+{
+  "name": "faq-accordion-challenge",
+  "version": "1.0.0",
+  "description": "The solution for the Newbie/JS/Faq-accordion Frontendmentor challenge",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoMartinezCastro/frontend-mentor-challenges.git"
+  },
+  "keywords": [
+    "learning",
+    "webdev",
+    "js",
+    "html",
+    "css"
+  ],
+  "author": "Eduardo Martinez Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoMartinezCastro/frontend-mentor-challenges/issues"
+  },
+  "homepage": "https://github.com/EduardoMartinezCastro/frontend-mentor-challenges#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}

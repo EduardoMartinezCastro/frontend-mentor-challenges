@@ -1,0 +1,40 @@
+@font-face {
+  font-family: WorkSans;
+  src: url("work_sans.01a70b57.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: WorkSans;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f9f0ff;
+  background-image: url("background-pattern-desktop.9dae411c.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.faq__card {
+  background-color: #fff;
+  max-width: 70rem;
+}
+
+.faq__container {
+  margin: 1.5rem;
+}
+
+.faq__title__section, .faq__body__section {
+  display: flex;
+}
+/*# sourceMappingURL=solution.748ad148.css.map */

@@ -7,12 +7,45 @@
   src: url(../assets/fonts/work_sans.ttf);
 }
 
-html {
-  font-size: 62.5%;
-}
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: "WorkSans";
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background-color: #f9f0ff;
+  background-image: url("../assets/images/background-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*********************/
+/** Accordion STYLES **/
+/*********************/
+
+.faq__card {
+  background-color: #ffffff;
+  max-width: 70rem;
+}
+
+.faq__container {
+  margin: 1.5rem;
+}
+
+.faq__title__section {
+  display: flex;
+}
+
+.faq__body__section {
+  display: flex;
 }
