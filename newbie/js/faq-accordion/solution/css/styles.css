@@ -29,23 +29,76 @@ body {
   align-items: center;
 }
 
-/*********************/
+/**********************/
 /** Accordion STYLES **/
-/*********************/
+/**********************/
 
 .faq__card {
   background-color: #ffffff;
-  max-width: 70rem;
+  max-width: 62rem;
+  border-radius: 1.5rem;
 }
 
 .faq__container {
-  margin: 1.5rem;
+  margin: 4.8rem;
 }
+
+/****************************/
+/** Accordion title STYLES **/
+/****************************/
 
 .faq__title__section {
   display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-bottom: 3.2rem;
 }
+
+.faq__title {
+  font-size: 6.2rem;
+}
+
+/****************************/
+/** Accordion body STYLES ***/
+/****************************/
 
 .faq__body__section {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/****************************/
+/** Accordion item STYLES ***/
+/****************************/
+
+.faq__item__title__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq__item__title {
+  font-size: 1.8rem;
+  font-weight: 550;
+  margin-bottom: 1.6rem;
+}
+
+.faq__item__description {
+  color: hsl(292, 42%, 14%);
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.faq__item:not(:last-child) {
+  margin-bottom: 2.4rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 2px solid #f9f0ff;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  max-height: 0;
 }
