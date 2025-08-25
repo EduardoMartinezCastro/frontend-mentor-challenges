@@ -30,10 +30,14 @@ body {
   border-radius: 1.5rem;
   max-width: 62rem;
   max-height: 63rem;
+  display: flex;
+  box-shadow: 3px 6px 15px #8c6991;
 }
 
 .faq__container {
+  flex-direction: column;
   margin: 4.8rem;
+  display: flex;
 }
 
 .faq__title__section {
@@ -50,7 +54,12 @@ body {
 .faq__body__section {
   flex-direction: column;
   justify-content: center;
-  max-height: 40rem;
+  display: flex;
+  overflow-y: auto;
+}
+
+.faq__item {
+  flex-direction: column;
   display: flex;
   overflow-y: auto;
 }
@@ -68,7 +77,6 @@ body {
 
 .faq__item__description {
   color: #2f1533;
-  max-height: 13rem;
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.4;

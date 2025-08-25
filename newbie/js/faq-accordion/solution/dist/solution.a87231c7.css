@@ -1,0 +1,12 @@
+@media (width <= 75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (width <= 62em) {
+  html {
+    font-size: 48%;
+  }
+}
+/*# sourceMappingURL=solution.a87231c7.css.map */

@@ -1,0 +1,13 @@
+/* 1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* 992px */
+@media (max-width: 62em) {
+  html {
+    font-size: 48%;
+  }
+}
