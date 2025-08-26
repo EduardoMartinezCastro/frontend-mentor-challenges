@@ -25,10 +25,10 @@
 137C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\is-number\LICENSE133994146229556934 0
 110C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\css134006197039995760 1
 125C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\json5133994146233404455 1
-111C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist134006234986374815 1
+111C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist134007078636651904 1
 177C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest4.c133994146237146764 0
 159C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\features\mpeg-dash.js133994146248059634 0
-117C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\index.html134006209366367029 0
+117C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\index.html134006246078430449 0
 127C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\is-glob133994146230047856 1
 141C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\picocolors\types.d.ts133994146231408562 0
 155C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\features\woff2.js133994146257755898 0
@@ -487,7 +487,7 @@
 154C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\features\ruby.js133994146251897637 0
 155C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\type-fest\source\promise-value.d.ts133994146234922068 0
 159C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\features\indexeddb.js133994146245612301 0
-121C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\css\styles.css134006234985966081 0
+121C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\css\styles.css134006250744200688 0
 145C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\node-addon-api\LICENSE.md133994146234201814 0
 155C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\optimizer-html\package.json133994146230527196 0
 159C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\features\flow-root.js133994146244077242 0
@@ -541,7 +541,7 @@
 138C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\tslib\package.json133994146231683873 0
 144C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@swc\helpers\esm\_set.js133994146239761139 0
 135C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\tslib\README.md133994146232204698 0
-136C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\solution.3464ddca.js.map134006200481452727 0
+136C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\solution.3464ddca.js.map134006240932113874 0
 137C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\tslib\SECURITY.md133994146232564524 0
 144C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\semver\functions\diff.js133994146233087218 0
 140C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\tslib\tslib.es6.html133994146228004276 0
@@ -816,7 +816,7 @@
 144C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\postcss-value-parser\lib133994146232426478 1
 163C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\features\vector-effect.js133994146256046620 0
 191C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages.ps1133994146259267957 0
-137C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\solution.a87231c7.css.map134006202012201244 0
+137C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\solution.a87231c7.css.map134007078636651904 0
 151C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\regions\NA.js133994146248630950 0
 152C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\msgpackr-extract\src\extract.cpp133994146229045975 0
 159C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\features\webcodecs.js133994146257118116 0
@@ -959,7 +959,7 @@
 170C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@swc\helpers\esm\_tagged_template_literal_loose.js133994146239864293 0
 138C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\is-number\index.js133994146228823487 0
 140C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\msgpackr\SECURITY.md133994146236698760 0
-134C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\icon-plus.5392e01d.svg134006200482020118 0
+134C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\icon-plus.5392e01d.svg134006245250503189 0
 138C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\nullthrows\LICENSE133994146228966152 0
 154C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\core\lib\Transformation.js133994146240023673 0
 137C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\lmdb\node_modules133994146220446446 1
@@ -2210,7 +2210,7 @@
 147C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@swc\helpers\_\_ts_decorate133994146244127670 1
 178C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\features\mdn-css-unicode-bidi-isolate.js133994146247243824 0
 175C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\features\mdn-text-decoration-color.js133994146247280521 0
-137C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\solution.748ad148.css.map134006234986347591 0
+137C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\solution.748ad148.css.map134007078636651904 0
 179C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\features\mdn-text-decoration-shorthand.js133994146247364557 0
 174C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\features\mediacapture-fromelement.js133994146247499398 0
 164C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\caniuse-lite\data\features\variable-fonts.js133994146255961869 0
@@ -2672,7 +2672,7 @@
 154C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\runtime-service-worker\src133994146229802923 1
 161C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@swc\helpers\cjs\_array_like_to_array.cjs133994146230444361 0
 161C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@swc\helpers\cjs\_array_without_holes.cjs133994146231257949 0
-132C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\solution.3464ddca.js134006200481412577 0
+132C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\solution.3464ddca.js134006240932088781 0
 165C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@swc\helpers\cjs\_assert_this_initialized.cjs133994146231608055 0
 157C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@swc\helpers\cjs\_async_generator.cjs133994146232503462 0
 166C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@swc\helpers\cjs\_async_generator_delegate.cjs133994146232082203 0
@@ -3415,7 +3415,7 @@
 149C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\core\src\constants.js133994146236681352 0
 149C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@lmdb\lmdb-win32-x64\index.js133994146227844842 0
 151C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\core\src\Environment.js133994146237163344 0
-133C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\solution.748ad148.css134006234986304249 0
+133C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\solution.748ad148.css134007078636426613 0
 145C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\core\src\index.js133994146237269572 0
 159C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\core\src\ParcelConfig.schema.js133994146238461470 0
 151C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\core\src\projectPath.js133994146238763459 0
@@ -3448,7 +3448,7 @@
 166C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\core\lib\registerCoreWithSerializer.js133994146238986337 0
 154C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\core\lib\ReporterRunner.js133994146239043519 0
 145C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\core\lib\requests133994146240445039 1
-134C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\icon-star.a6edca50.svg134006200480941799 0
+134C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\icon-star.a6edca50.svg134006240931791949 0
 154C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\core\lib\RequestTracker.js133994146239129232 0
 154C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\core\lib\resolveOptions.js133994146239253927 0
 150C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\@parcel\core\lib\serializer.js133994146239297508 0
@@ -3515,11 +3515,11 @@
 161C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\.bin\node-gyp-build-optional-packages.cmd133994146259185417 0
 131C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\.bin\parcel133994146259255232 0
 131C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\node_modules\.bin\semver133994146259190883 0
-151C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\background-pattern-desktop.9dae411c.svg134006200481062150 0
-122C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\index.html134006209367378692 0
-133C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\solution.a87231c7.css134006202012142181 0
-134C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\work_sans.01a70b57.ttf134006200480866470 0
-122C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\css\queries.css134006202011619275 0
+151C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\background-pattern-desktop.9dae411c.svg134006240931761957 0
+122C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\index.html134007078636426613 0
+133C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\solution.a87231c7.css134007078636651904 0
+134C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\dist\work_sans.01a70b57.ttf134006240931865459 0
+122C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\css\queries.css134006253917858171 0
 120C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\assets\images133995913136917230 1
 151C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\assets\images\background-pattern-desktop.svg133983828254180847 0
 135C:\Users\eduar\Documents\pro\frontend\projects\frontend-mentor-challenges\newbie\js\faq-accordion\solution\assets\images\icon-minus.svg133983828254437119 0

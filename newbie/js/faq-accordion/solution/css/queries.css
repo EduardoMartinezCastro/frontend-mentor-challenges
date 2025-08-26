@@ -11,3 +11,18 @@
     font-size: 48%;
   }
 }
+
+/* 768px */
+@media (max-width: 48em) {
+  .faq__card {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
+
+/* 480px */
+@media (max-width: 30em) {
+  html {
+    font-size: 40%;
+  }
+}

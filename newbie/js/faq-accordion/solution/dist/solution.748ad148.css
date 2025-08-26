@@ -64,6 +64,10 @@ body {
   overflow-y: auto;
 }
 
+.faq__item:not(:focus) {
+  overflow: hidden;
+}
+
 .faq__item__title__section {
   justify-content: space-between;
   display: flex;

@@ -9,4 +9,17 @@
     font-size: 48%;
   }
 }
+
+@media (width <= 48em) {
+  .faq__card {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
+
+@media (width <= 30em) {
+  html {
+    font-size: 40%;
+  }
+}
 /*# sourceMappingURL=solution.a87231c7.css.map */
