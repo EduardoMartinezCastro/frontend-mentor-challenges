@@ -100,4 +100,14 @@ body {
   visibility: hidden;
   max-height: 0;
 }
+
+.expanded {
+  content: url("icon-minus.26b711cc.svg");
+}
+
+.button__expand {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
 /*# sourceMappingURL=solution.748ad148.css.map */
