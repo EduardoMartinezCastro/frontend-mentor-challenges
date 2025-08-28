@@ -105,7 +105,7 @@ body {
   font-weight: 300;
   line-height: 1.4;
   overflow-y: auto;
-  transition: 0.3s;
+  transition: all 0.2s allow-discrete;
 }
 
 .faq__item:not(:last-child) {
@@ -117,8 +117,7 @@ body {
 .hidden {
   opacity: 0;
   pointer-events: none;
-  visibility: hidden;
-  max-height: 0;
+  content-visibility: hidden;
 }
 
 .expanded {

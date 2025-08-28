@@ -130,7 +130,7 @@
 
   // Only insert newRequire.load when it is actually used.
   // The code in this file is linted against ES5, so dynamic import is not allowed.
-  // INSERT_LOAD_HERE
+  function $parcel$resolve(url) {  url = importMap[url] || url;  return import.meta.resolve(distDir + url);}newRequire.resolve = $parcel$resolve;
 
   Object.defineProperty(newRequire, 'root', {
     get: function () {
@@ -681,33 +681,35 @@ init();
 },{"../views/FaqQAView":"avypH","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"avypH":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _iconPlusSvg = require("../../assets/images/icon-plus.svg");
-var _iconPlusSvgDefault = parcelHelpers.interopDefault(_iconPlusSvg);
-var _iconMinusSvg = require("../../assets/images/icon-minus.svg");
-var _iconMinusSvgDefault = parcelHelpers.interopDefault(_iconMinusSvg);
 class FaqQAView {
     #parentElement = document.querySelector(".faq__body__section");
-    constructor(){
-        console.log("Imported FaqQAView");
-    }
+    constructor(){}
     addToggleFaqListener() {
         this.#parentElement.addEventListener("click", (e)=>{
             const btn = e.target.closest(".button__expand");
             if (!btn) return;
             const img = btn.firstElementChild;
-            img.src = img.src.includes("minus") ? (0, _iconPlusSvgDefault.default) : (0, _iconMinusSvgDefault.default);
+            const pluIconUrl = new URL(require("b02c5051e6a60302"));
+            const minusIconUrl = new URL(require("e95eb982d3082aa9"));
+            img.src = img.src.includes("minus") ? pluIconUrl : minusIconUrl;
+            const currentParagraph = btn.closest(".faq__item__title__section").nextElementSibling;
+            currentParagraph.classList.toggle("hidden");
             const faqItems = this.#parentElement.querySelectorAll(".faq__item");
             faqItems.forEach((faqItem)=>{
-                const selectedFaqParagraph = faqItem.querySelector(".faq__item__description");
-                if (faqItem.contains(img)) selectedFaqParagraph.classList.remove("hidden");
-                else !selectedFaqParagraph.classList.contains("hidden") && selectedFaqParagraph.classList.add("hidden");
+                if (!faqItem.contains(btn)) {
+                    const currentDescription = faqItem.querySelector(".faq__item__description");
+                    if (!currentDescription.classList.contains("hidden")) {
+                        currentDescription.classList.add("hidden");
+                        faqItem.querySelector(".faq__item__icon").src = pluIconUrl;
+                    }
+                }
             });
         });
     }
 }
 exports.default = new FaqQAView();
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","../../assets/images/icon-plus.svg":"cbx9B","../../assets/images/icon-minus.svg":"8umv7"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","b02c5051e6a60302":"a7zNI","e95eb982d3082aa9":"7GeL7"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -737,6 +739,12 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"cbx9B":[function() {},{}],"8umv7":[function() {},{}]},["g9U2S","04AXI"], "04AXI", "parcelRequire5131", {})
+},{}],"a7zNI":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("icon-plus.fd00e818.svg") + "?" + Date.now();
+
+},{}],"7GeL7":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("icon-minus.c409033d.svg") + "?" + Date.now();
+
+},{}]},["g9U2S","04AXI"], "04AXI", "parcelRequire5131", {}, "./", "/")
 
 //# sourceMappingURL=solution.182e08fc.js.map

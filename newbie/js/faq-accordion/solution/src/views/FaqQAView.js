@@ -1,12 +1,7 @@
-import plusIcon from "../../assets/images/icon-plus.svg";
-import minusIcon from "../../assets/images/icon-minus.svg";
-
 class FaqQAView {
   #parentElement = document.querySelector(".faq__body__section");
 
-  constructor() {
-    console.log("Imported FaqQAView");
-  }
+  constructor() {}
 
   addToggleFaqListener() {
     this.#parentElement.addEventListener("click", (e) => {
@@ -16,20 +11,35 @@ class FaqQAView {
 
       const img = btn.firstElementChild;
 
-      img.src = img.src.includes("minus") ? plusIcon : minusIcon;
+      const pluIconUrl = new URL(
+        "../../assets/images/icon-plus.svg",
+        import.meta.url
+      );
 
+      const minusIconUrl = new URL(
+        "../../assets/images/icon-minus.svg",
+        import.meta.url
+      );
+
+      img.src = img.src.includes("minus") ? pluIconUrl : minusIconUrl;
+
+      const currentParagraph = btn.closest(
+        ".faq__item__title__section"
+      ).nextElementSibling;
+
+      currentParagraph.classList.toggle("hidden");
       const faqItems = this.#parentElement.querySelectorAll(".faq__item");
 
       faqItems.forEach((faqItem) => {
-        const selectedFaqParagraph = faqItem.querySelector(
-          ".faq__item__description"
-        );
-        if (faqItem.contains(img)) {
-          selectedFaqParagraph.classList.remove("hidden");
-        } else {
-          !selectedFaqParagraph.classList.contains("hidden")
-            ? selectedFaqParagraph.classList.add("hidden")
-            : null;
+        if (!faqItem.contains(btn)) {
+          const currentDescription = faqItem.querySelector(
+            ".faq__item__description"
+          );
+
+          if (!currentDescription.classList.contains("hidden")) {
+            currentDescription.classList.add("hidden");
+            faqItem.querySelector(".faq__item__icon").src = pluIconUrl;
+          }
         }
       });
     });

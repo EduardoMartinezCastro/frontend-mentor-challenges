@@ -81,10 +81,10 @@ body {
 
 .faq__item__description {
   color: #2f1533;
+  transition: all .2s allow-discrete;
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.4;
-  transition: all .3s;
   overflow-y: auto;
 }
 
@@ -97,8 +97,7 @@ body {
 .hidden {
   opacity: 0;
   pointer-events: none;
-  visibility: hidden;
-  max-height: 0;
+  content-visibility: hidden;
 }
 
 .expanded {
